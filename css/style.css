@@ -1,0 +1,9 @@
+header {
+  background-color: blue;
+  border: 10px solid black;
+  font-family: monospace;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
