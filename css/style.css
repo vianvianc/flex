@@ -2,10 +2,8 @@
   /* declare a variable with `--` syntax */
   --dark: #13293d;
   --light: #fff;
-  --navlink-color: #b9c6ae;
+  --secondary-color: #5938ce;
 }
-
-
 
 * {
   box-sizing: border-box;
@@ -41,16 +39,13 @@ header {
   z-index: 2;
 }
 
-
 nav a {
   text-decoration: none;
   padding: 15px;
   color: rgb(71, 60, 60);
   margin-left: 20px;
-
 }
 nav a:hover {
-
   transition: all 0.3s ease-in-out;
   color: var(--secondary-color);
 }
@@ -70,27 +65,49 @@ div {
 /* flex-direction - direction of items in the flex container */
 
 .container {
+  /* margin-top: 20px; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  
+
   justify-content: center;
   align-items: center;
   background-color: lightgrey;
-  border: 10px solid black;
-  height: 600px;
+  border: 5px solid rgb(90, 81, 81);
+  height: 90vh;
   /* whileInView: opacity: 1 
   whileHover={{ scale: 1.3 }}
-  transition={{ duration: 0.5, type: "tween" }}
-} */
+  transition={{ duration: 0.5, type: "tween" }}*/
+}
+.container h2 {
+  /* margin-top: 150px; */
+  margin-top: 13%;
+}
 
-
-
-*/ footer {
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgb(41, 41, 41);
   color: white;
   height: 10rem;
+}
+.climbing {
+  background-image: url("../images/vrg-rock.png");
+  background-size: 100%;
+}
+/* #about {
+  flex-direction: row;
+} */
+.about {
+  background-image: url("../images/social.png");
+  /* background-size: 100%; */
+  background-size: 100vw 100vh;
+}
+.skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
 }

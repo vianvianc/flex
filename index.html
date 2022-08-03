@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/759180369d.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -19,53 +23,110 @@
     <header>
       <h1>Vian Charbonneau</h1>
       <nav>
-        <a href="#">Portfolio</a>
-        <a href="#">Climbing</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#skills">Skills</a>
+        <a href="#climbing">Climbing</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
 
-    <section class="container"></section>
+    <section class="container" id="header_photo"></section>
     <main>
-      <section class="container">
+      <section class="container" id="portfolio">
         <h2 className="head-text">
           Passionate About <span>Learning</span>
           <br />
         </h2>
-        <div id="box-1">1</div>
-        <div id="box-2">2</div>
-        <div id="box-3">3</div>
+        
+          <a
+          href="https://vianvianc.github.io/horiseon/#search-engine-optimization"
+          target="_blank"
+          ><i class="fa-solid fa-diagram-project fa-6x fa-beat"></i
+        ></a>
+        
+      </section>
+      <section class="container" id="skills">
+        <h2 className="head-text">
+          Developer <span>Skills</span>
+          <br />
+        </h2>
+        <section class "skills">
+        <i class="fa-brands fa-react fa-3x"></i>
+        <i class="fa-brands fa-square-js fa-3x"></i>
+        <i class="fa-brands fa-html5 fa-3x"></i>
+        <i class="fa-solid fa-database fa-3x"></i>
+        <i class="fa-brands fa-css3 fa-3x"></i>
+        <i class="fa-brands fa-bootstrap fa-3x"></i>
+        <i class="fa-brands fa-mdb fa-3x"></i>
+        <i class="fa-brands fa-git fa-3x"></i>
+        <i class="fa-brands fa-docker fa-3x"></i>
+        <i class="fa-brands fa-node-js fa-3x"></i>
+        <i class="fa-brands fa-linux fa-3x"></i>
+        <i class="fa-brands fa-github fa-3x"></i>
+        <i class="fa-brands fa-slack fa-3x"></i>
+        <i class="fa-brands fa-trello fa-3x"></i>
+      </section>
       </section>
 
-      <section class="container">
+      <section class="container climbing" id="climbing">
         <h2 className="head-text">
           Passionate about <span>Climbing</span>
           <br />
         </h2>
-        <div id="box-6">6</div>
-        <div id="box-7">7</div>
-        <div id="box-8">8</div>
+        <iframe
+          width="540"
+          height="360"
+          src="https://www.youtube.com/embed/0tbMTIN_jNs"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          src="https://player.vimeo.com/video/79676802?h=f9d63081f4"
+          width="640"
+          height="360"
+          frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <!-- <p>
+          <a href="https://vimeo.com/79676802"
+            >Vian Charbonneau on Thug Life 5.13d</a
+          >
+          from <a href="https://vimeo.com/tarakerzhner">tara kerzhner</a> on
+          <a href="https://vimeo.com">Vimeo</a>.
+        </p> -->
       </section>
 
-      <section class="container">
+      <section class="container about" id="about">
         <h2 className="head-text">
           Social <span>Media</span>
           <br />
         </h2>
-        <div id="box-6">6</div>
-        <div id="box-7">7</div>
-        <div id="box-8">8</div>
+        <a
+          href="https://www.instagram.com/accounts/login/?next=/namevian/"
+          target="_blank"
+          ><i class="fa-brands fa-instagram fa-6x fa-bounce"></i
+        ></a>
+        <a href="https://github.com/vianvianc" target="_blank"
+          ><i class="fa-brands fa-square-github fa-6x fa-bounce"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/vian-charbonneau-763850235/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin fa-6x fa-bounce"></i>
+        </a>
       </section>
 
-      <section class="container">
+      <section class="container" id="contact">
         <h2 className="head-text">
           I would love to chat with <span>You</span>
           <br />
+          contact form coming soon!
         </h2>
-        <div id="box-6">6</div>
-        <div id="box-7">7</div>
-        <div id="box-8">8</div>
+        
       </section>
       <footer>@vianvianc 2022</footer>
     </main>
